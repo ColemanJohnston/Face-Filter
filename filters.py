@@ -29,10 +29,6 @@ def filterAlgorithm1():
 	imgz = PIL.Image.open('vale'+ str(check) + '.jpg')
 	check  =  check+1
 	
-	
-
-	
-	
 	width = imgz.size[0]
 	height = imgz.size[1]
 	print(width,height)
@@ -63,6 +59,7 @@ def filterAlgorithm1():
 				
 	
 	#print(red,green,blue)
+	originalIm.show()
 	originalIm.save('COPY.jpg')
 	
 	
@@ -73,6 +70,7 @@ def filterAlgorithm2():
 	global check
 	
 	originalIm = PIL.Image.open('COPY.jpg')
+	originalIm.show()
 	#imgz = PIL.Image.open('vale'+ str(check) + '.jpg')
 	
 
@@ -110,6 +108,7 @@ def filterAlgorithm2():
 				
 	
 	#print(red,green,blue)
+	originalIm.show()
 	originalIm.save('COPY.jpg')
 
 def filterAlgorithm3():
@@ -123,6 +122,7 @@ def filterAlgorithm3():
 	global check
 	
 	originalIm = PIL.Image.open('COPY.jpg')
+	originalIm.show()
 	#imgz = PIL.Image.open('vale'+ str(check) + '.jpg')
 	
 
@@ -162,6 +162,7 @@ def filterAlgorithm3():
 				
 	
 	#print(red,green,blue)
+	originalIm.show()
 	originalIm.save('COPY.jpg')
 
 def filterAlgorithm4():
@@ -169,6 +170,7 @@ def filterAlgorithm4():
 	global check
 	
 	originalIm = PIL.Image.open('COPY.jpg')
+	originalIm.show()
 	#imgz = PIL.Image.open('vale'+ str(check) + '.jpg')
 	
 
@@ -225,6 +227,7 @@ def filterAlgorithm4():
 				
 	
 	#print(red,green,blue)
+	originalIm.show()
 	originalIm.save('COPY.jpg')
 	
 def getFile(message):
